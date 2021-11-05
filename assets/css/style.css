@@ -104,17 +104,17 @@ main section h2 {
 }
 
 .feature {
-    border: 2px black solid;
     width: 95%;
     height: 50%;
+    background-image: url(http://placekitten.com/600/300);
 }
 
 .mini {
-    border: 2px black solid;
     width: 43%;
     height: 24%;
     padding: .5rem;
     margin: .2rem;
+    background-image: url(http://placekitten.com/300/140);
 }
 
 /* Contact Information */
