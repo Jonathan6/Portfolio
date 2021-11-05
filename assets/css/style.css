@@ -16,9 +16,10 @@ header p {
     background-color: rgb(149, 214, 223);
     font-size: 1.6em;
     font-weight: bold;
-    line-height: 2.8rem;
+    line-height: 2rem;
     text-align: right;
-    margin: .1rem;
+    margin: .9rem;
+    margin-left: 0%;
     padding-right: .5em;
 }
 
@@ -47,13 +48,14 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Content */
+/* Main */
 main {
     margin: 5%;
     display: flex;
     flex-direction: column;
 }
 
+/* Hero */
 figure {
     background-image: url("../micah-boswell-OPnBJ5L2oxs-unsplash.jpg");
     position: relative;
@@ -74,6 +76,7 @@ figure div {
     padding: .2rem;
 }
 
+/* Content */
 main section {
     display: flex;
     flex-direction: row;
@@ -91,10 +94,30 @@ main section h2 {
 
 .container {
     display: flex;
+    flex-flow: row wrap;
     width: 70%;
-    
 }
 
+/* Work Display */
+.display {
+    height: 500px;
+}
+
+.feature {
+    border: 2px black solid;
+    width: 95%;
+    height: 50%;
+}
+
+.mini {
+    border: 2px black solid;
+    width: 43%;
+    height: 24%;
+    padding: .5rem;
+    margin: .2rem;
+}
+
+/* Contact Information */
 .stuff {
     display: flex;
     justify-content: space-between;
