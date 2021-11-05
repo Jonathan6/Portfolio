@@ -5,28 +5,27 @@
 
 /* Header */
 header {
-    background-color: rgb(54, 54, 54);
-}
-
-header {
     display: flex;
+    background-color: rgb(54, 54, 54);
     justify-content: space-between;
 }
 
 header p {
-    width: 30%;
+    width: 24%;
     color: rgb(54, 54, 54);
     background-color: rgb(149, 214, 223);
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 2.8rem;
     text-align: right;
+    margin: .1rem;
     padding-right: .5em;
 }
 
 nav {
     width: 40%;
     margin-right: 5%;
+    
 
 }
 
@@ -56,9 +55,23 @@ main {
 }
 
 figure {
-    background-image: url("assets\micah-boswell-OPnBJ5L2oxs-unsplash.jpg");
+    background-image: url("../micah-boswell-OPnBJ5L2oxs-unsplash.jpg");
+    position: relative;
     /* Photo by <a href="https://unsplash.com/@micahboswell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Micah Boswell</a> on <a href="https://unsplash.com/s/photos/background-blue?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-    height: 400px;
+    height: 10rem;
+    width: 100%;
+    margin: 0;
+}
+
+figure div {
+    background-color: rgb(149, 214, 223);
+    position: absolute;
+    right: 4rem;
+    bottom: 1rem;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    font-size: 1.8rem;
+    padding: .2rem;
 }
 
 main section {
