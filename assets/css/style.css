@@ -26,8 +26,6 @@ header p {
 nav {
     width: 40%;
     margin-right: 5%;
-    
-
 }
 
 nav ul {
@@ -45,7 +43,19 @@ nav ul li {
 nav ul li a {
     color: rgb(149, 214, 223);
     font-weight: bold;
-    text-decoration: none;
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    transition: all ease-in-out 250ms;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
 }
 
 /* Main */
