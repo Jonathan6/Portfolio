@@ -19,8 +19,8 @@ header h1 {
     width: 24%;
     color: rgb(54, 54, 54);
     background-color: var(--color-light);
-    font-size: 1.6em;
-    font-weight: bold;
+    font-size: 1.8em;
+    font-weight: bolder;
     line-height: 2rem;
     text-align: right;
     margin: .9rem;
@@ -59,10 +59,11 @@ nav ul li a::after {
     width: 0%;
     background-color: var(--color-light);
     transition: all ease-in-out 250ms;
+    margin-left: 10%;
 }
 
 nav ul li a:hover::after {
-    width: 100%;
+    width: 80%;
 }
 
 /* Main */
@@ -77,7 +78,7 @@ figure {
     background-image: url("../micah-boswell-OPnBJ5L2oxs-unsplash.jpg");
     position: relative;
     /* Photo by <a href="https://unsplash.com/@micahboswell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Micah Boswell</a> on <a href="https://unsplash.com/s/photos/background-blue?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-    height: 10rem;
+    height: 14rem;
     width: 100%;
     margin: 0;
 }
@@ -171,8 +172,27 @@ main section h2 {
 
 
 /* Contact Information */
-.stuff {
+.contactInfo {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+}
+
+.contactInfo a {
+    text-decoration: none;
+    color: var(--color-dark);
+    font-size: 1.2rem;
+}
+
+.contactInfo a::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: var(--color-light);
+    transition: all ease-in-out 250ms;
+}
+
+.contactInfo a:hover::after {
+    width: 100%;
 }
