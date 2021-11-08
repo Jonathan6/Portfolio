@@ -17,15 +17,16 @@ header {
 
 header h1 {
     width: 24%;
+    margin: .9rem;
+    margin-left: 0%;
+    padding-right: .5em;
+
     color: rgb(54, 54, 54);
     background-color: var(--color-light);
     font-size: 1.8em;
     font-weight: bolder;
     line-height: 2rem;
     text-align: right;
-    margin: .9rem;
-    margin-left: 0%;
-    padding-right: .5em;
 }
 
 /* Navigation Bar */
@@ -53,13 +54,13 @@ nav ul li a {
 }
 
 nav ul li a::after {
-    content: '';
     display: block;
+    content: '';
     height: 5px;
     width: 0%;
+    margin-left: 10%;
     background-color: var(--color-light);
     transition: all ease-in-out 250ms;
-    margin-left: 10%;
 }
 
 nav ul li a:hover::after {
@@ -75,9 +76,9 @@ main {
 
 /* Hero */
 figure {
+    /* Photo by <a href="https://unsplash.com/@micahboswell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Micah Boswell</a> on <a href="https://unsplash.com/s/photos/background-blue?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
     background-image: url("../micah-boswell-OPnBJ5L2oxs-unsplash.jpg");
     position: relative;
-    /* Photo by <a href="https://unsplash.com/@micahboswell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Micah Boswell</a> on <a href="https://unsplash.com/s/photos/background-blue?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
     height: 14rem;
     width: 100%;
     margin: 0;
