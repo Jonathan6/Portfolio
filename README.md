@@ -13,12 +13,24 @@ This project is the initial design and creation of my portfolio which I will be 
 - [CSS Adjustments](#css)
 - [Conclusion](#conclusion)
 
-## Reference Website ##
+## Reference Website
+
+<details>
+<summary>Click to Reveal</summary>
+
 ![Screenshot of Reference Website](assets/targetpreview.png)
 
+</details>
+
 ## Portfolio Website Preview
+
+<details>
+<summary>Click to Reveal</summary>
+
 [![Screenshot of Portfolio Website](assets/websitepreview.png)](https://jonathan6.github.io/Portfolio/)
 Click the preview to be redirected to the website!
+
+</details>
 
 ## Cloning
 Since I am currently unfamiliar with backend I have decided that this first iteration is to focus on HTML and CSS. I was given an initial design as reference and as practice I tried to copy the design as close as possible.
